@@ -331,9 +331,21 @@
     } */
 
     .info1{
-        position: absolute;
-        top:500px;
-        right:120px;
+        width: 190px;
+        top: 92%;
+        left:auto;
+        right: auto;
+    }
+    
+    .info1 h3{
+        font-size: 0.7rem;
+    }
+    
+    .info1 img{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-left: 10px;
     }
 
     /* .info1 img{
@@ -341,10 +353,10 @@
     } */
 
     .info2{
-        position: absolute;
-        top:440px;
+        top:80%;
         width: 190px;
-        left: 160px;
+        left: auto;
+        right: auto;
     }
 
     .empty_container{
