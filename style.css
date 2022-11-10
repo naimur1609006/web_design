@@ -40,17 +40,11 @@
 
 .content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    max-width: 1050px;
     margin: 0 auto;
-    min-height:600px;
-    gap: 50px;
+    gap: 70px;
     margin-top: 50px;
-}
-
-.content >*{
-    flex:1;
 }
 
 .logo_text{
@@ -210,6 +204,8 @@
     width: 20px;
     height: 20px;
     margin-bottom: 15px;
+    background-color: #fff;
+    padding: 8px 8px;
 }
 
 .first_service h3{
@@ -297,10 +293,14 @@
     }
 
     .content{
-        display: block;
-        width: 400px;
-        margin-top: -30px;
+        flex-direction: column;
+        margin-top: 0px;
+    }
 
+    .logo_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .text_section h1{
@@ -374,14 +374,12 @@
 
     .details{
         flex-direction: column;
-      text-align: center;
         align-items: center;
-        width: 400px;
+        text-align: center;
     }
 
     .details_text{
         text-align: center;
-        border: 1px solid red;
     }
 
     .details_text h1{
@@ -390,6 +388,6 @@
 
     .first_point{
         justify-content: flex-start;
-        margin: 5px 60px;
+        margin: 5px 100px;
     }
 } 
