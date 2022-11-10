@@ -259,7 +259,7 @@
 }
 
 .details_image img{
-    width: 85%;
+    width: 90%;
 }
 
 
@@ -380,6 +380,7 @@
 
     .details_text{
         text-align: center;
+        border: 1px solid red;
     }
 
     .details_text h1{
