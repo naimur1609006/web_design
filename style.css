@@ -257,7 +257,7 @@
 
 
 
-@media (max-width:688px){
+@media (max-width:1042px){
     #bar_icon{
         display: block;
     }
@@ -312,6 +312,7 @@
 
     .btn-start{
         align-self: center;
+        margin-bottom: 50px;
     }
 
     .logoipsum{
