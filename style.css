@@ -72,7 +72,7 @@
 }
 
 .image_section img{
-    width: 100%;
+    width: 85%;
 }
 
 .info1{
@@ -159,12 +159,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .logoipsum .first{
     display: flex;
     align-items: center;
-    gap:10px
+    gap:10px;
+    justify-content: center;
 }
 
 .logoipsum .first h3{
@@ -218,6 +220,46 @@
     font-size: 0.7rem;
     font-weight: 400;
     color: #777777;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 60px;
+}
+
+.details_text{
+    max-width: 550px;
+}
+
+.details_text h3{
+    font-size: .8rem;
+    margin-bottom:1rem ;
+}
+
+.details_text h1{
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+.first_point{
+   display: flex;
+   gap:20px;
+}
+
+.first_point #check-icon{
+    color: #06C167;
+}
+
+.first_point h3{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.details_image img{
+    width: 85%;
 }
 
 
@@ -292,39 +334,56 @@
         height:500px;
     }
 
-    .image_section img{
-        height: 470px;
-    }
+    /* .image_section img{
+        width: 90%;
+    } */
 
     .info1{
         position: absolute;
-        top:430px;
+        top:460px;
         right:100px;
     }
 
-    .info1 img{
+    /* .info1 img{
         height: 30px;
-    }
+    } */
 
     .info2{
         position: absolute;
-        top:380px;
+        top:400px;
         width: 190px;
         left: 110px;
     }
 
     .empty_container{
-        margin-top: 0px;
-        width:380px;
+        margin-top: 50px;
+        max-width:320px;
     }
 
     .service_container{
-        width: 400px;
+        max-width: 320px;
         flex-wrap: wrap;
+        border-bottom: 1px solid #777777;
+        margin-bottom: 50px;
     }
 
     .first_service{
-        width: 150px;
+        width: 130px;
         margin-bottom: 10px;
+    }
+
+    .details{
+        flex-direction: column;
+      text-align: center;
+        align-items: center;
+    }
+
+    .details_text{
+        text-align: center;
+    }
+
+    .first_point{
+        justify-content: flex-start;
+        margin: 5px 60px;
     }
 } 
